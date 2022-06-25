@@ -4,6 +4,9 @@ public class Piece {
     private boolean dead = false;
     private boolean white = false;
 
+    // for move validation we can use method overriding.
+    // https://beginnersbook.com/2014/01/method-overriding-in-java-with-example/
+
     public Piece(boolean white) {
         this.white = white;
     }

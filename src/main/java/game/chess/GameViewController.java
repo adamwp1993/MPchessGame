@@ -70,6 +70,15 @@ public class GameViewController implements Initializable {
         // TODO: create game engine - handles game flow
     }
 
+    public void clickPiece() {
+        //https://stackoverflow.com/questions/50012463/how-can-i-click-a-gridpane-cell-and-have-it-perform-an-action
+        // handles the click of a peice on the board.
+        // this needs to integrate with the gameEngine.
+        // Step 1: handle clicking a piece. determine if it is the players turn.
+        // Step 2: for said piece, validate moves. This will probably be built into the
+        // Step 3: highlight valid cells
+    }
+
     public void displayBoard() throws URISyntaxException {
         // retrieve current gameBoard from model
         // O(N) where N = number of squares on the board (64)
